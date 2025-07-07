@@ -1,0 +1,110 @@
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-cream: #F4F6F8;
+    --color-light-grey: #F4F6F8;
+    --color-dark-grey: #353535;
+    --font-size-small: 16px;
+    --font-size-medium: 14px;
+    --font-size-title-lg:38px;
+    --font-size-title-md:30px;
+    --font-size-title-sm:34px;
+    --font-size-text-lg:20px;
+    --font-size-text-md:12px;
+    --font-size-text-sm:16px;
+    --color-red: #F50E30;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (max-width:576px) {
+  .sm-none{
+    display: none;
+  }
+  .banner-media , .banner-about{
+    width:100%!important;
+  }
+  .banner-about{
+    align-items: center;
+  }
+  .banner-title{
+    font-size: 34px;
+    text-align: center;
+  }
+  .content{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 550;
+  }
+  .offer-title{
+    font-size: var(--font-size-text-sm);
+    padding: 0px 10px;
+  }
+  .card{
+    width: 100%!important;
+  }
+  .card h3{
+    text-align: end;
+  }
+  .card img{
+    top: 25px;
+    left: 15px;
+  }
+}
+
+@media (max-width:768px) {
+  .md-none{
+    display: none;
+  }
+  .banner-media , .banner-about{
+    width:100%!important;
+  }
+  .banner-about{
+    align-items: center;
+  }
+  .banner-title{
+    font-size:58px;
+    text-align: center;
+  }
+  .content{
+    font-size: var(--font-size-text-lg);
+    text-align: center;
+    font-weight: 550;
+  }
+  .sm-none{
+    display: none;
+  }
+  .offer-title{
+    font-size: var(--font-size-text-lg);
+    padding: 0px 10px;
+  }
+  .card{
+    width: 100%!important;
+  }
+}
+
+@media (max-width:992px) {
+  .lg-none{
+    display: none;
+  }
+  .banner-title{
+    font-size: 30px;
+  }
+  .content{
+    font-size: var(--font-size-text-md);
+    text-align: center;
+    font-weight: 550;
+  }
+
+}
+
+@media (max-width:1200px) {
+  .banner-title{
+    font-size: 30px;
+  }
+  .content{
+    font-size: var(--font-size-text-md);
+    font-weight: 550;
+  }
+}
