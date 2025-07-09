@@ -112,14 +112,13 @@ body {
   gap: 20px
 }
 
-.offer-title{
+.offer-title , .title{
   font-family: var(--font-family-title);
   font-weight: 900;
   font-size: var(--font-size-title-lg);
   letter-spacing: 0%;
   text-align: center;
   padding: 0px 50px;
-
 }
 
 
@@ -137,7 +136,7 @@ section{
   flex: 1;
 }
 
-.card h3{
+.card h3 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -172,3 +171,83 @@ section{
     bottom: 0px;
     right: 0px;
 }
+
+.about-us{
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--color-white);
+  padding: 0;
+}
+
+.about-img , .about-info{
+  width: 50%;
+}
+
+.about-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+
+
+}
+
+.description{
+  width: 50%;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.description ul li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: var(--font-family-title);
+}
+
+
+.about-title{
+  font-size: var(--font-size-title-lg);
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: var(--font-family-title)
+}
+
+.about-card{
+  border: solid 1px #FA002C26;
+  border-radius: 15px;
+  /* box-shadow: 0px 2px 16px #00000014; */
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
